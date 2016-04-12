@@ -1,0 +1,1 @@
+Put all design assets in this folder.
