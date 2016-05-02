@@ -30,12 +30,12 @@ gem "puma", "~> 2.16.0"
 
 gem 'us_web_design_standards', git: 'https://github.com/harrisj/us_web_design_standards_gem.git', branch: 'rails-assets-fixes'
 
+# Used to colorize output for rake tasks
+gem "rainbow"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :ruby
-
-  # Used to colorize output for rake tasks
-  gem "rainbow"
 
   # Linters
   gem 'rubocop', '~> 0.36.0', require: false
