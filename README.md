@@ -2,9 +2,9 @@
 
 ## Developer Setup
 
-1. Install Ruby 2.3. (It is suggested to use a Ruby version manager such as [rbenv](https://github.com/rbenv/rbenv#installation) and then to [install Ruby 2.3](https://github.com/rbenv/rbenv#installing-ruby-versions)).
+1. Install Ruby 2.2.4. (It is suggested to use a Ruby version manager such as [rbenv](https://github.com/rbenv/rbenv#installation) and then to [install Ruby 2.2.4](https://github.com/rbenv/rbenv#installing-ruby-versions): `rbenv install 2.2.4`).
 1. Install Bundler to manage dependencies: `gem install bundler`
-1. Install the gems using bundler: `bundle install`
+1. Install the gems included in this project using bundler: `bundle install`
 1. Install [PhantomJS](http://phantomjs.org/) for testing:
  - if you have Mac and Homebrew: `brew install phantomjs`
  - otherwise, follow the instructions on the website
